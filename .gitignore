@@ -1,0 +1,25 @@
+# SYSTEM AND ENVIRONMENT FILES
+.DS_Store
+.vscode/
+venv/
+.env
+
+# PYTHON GENERATED FILES
+__pycache__/
+*.pyc
+*.pyd
+
+# JUPYTER/COLAB FILES
+.ipynb_checkpoints/
+
+# LARGE BINARY ASSETS (Trained Models and Scalers)
+*.keras
+*.h5
+*.pkl
+*.bin
+
+# PROCESSED DATA (Regenerated Output Files)
+bitcoin_master_fused_df.csv
+bitcoin_daily_sentiment.csv
+coin_Bitcoin_processed.csv
+
